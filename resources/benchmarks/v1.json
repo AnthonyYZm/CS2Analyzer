@@ -1,0 +1,19 @@
+{
+  "benchmark_version": "1.0.0",
+  "source_type": "provisional",
+  "source_note": "应用内置参考区间，不代表同段位或职业玩家真实平均值",
+  "metrics": [
+    {
+      "metric_id": "first_damage_conversion_rate",
+      "context": { "weapon_class": "rifle" },
+      "reference_range": { "low": 0.45, "high": 0.65 },
+      "min_sample_size": 40
+    },
+    {
+      "metric_id": "advantage_giveback_rate",
+      "context": {},
+      "reference_range": { "low": 0.0, "high": 0.25 },
+      "min_sample_size": 20
+    }
+  ]
+}

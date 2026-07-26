@@ -1,0 +1,13 @@
+{
+  "name": "roundlens",
+  "private": true,
+  "packageManager": "pnpm@11.15.1",
+  "scripts": {
+    "dev": "pnpm --filter @roundlens/desktop dev",
+    "lint": "pnpm --filter @roundlens/desktop lint",
+    "typecheck": "pnpm --filter @roundlens/desktop typecheck",
+    "test": "pnpm --filter @roundlens/desktop test",
+    "build": "pnpm --filter @roundlens/desktop build",
+    "tauri": "pnpm --filter @roundlens/desktop tauri"
+  }
+}

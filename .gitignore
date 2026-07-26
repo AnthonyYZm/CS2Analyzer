@@ -1,0 +1,70 @@
+# Node.js / pnpm / Vite
+node_modules/
+.pnpm-store/
+dist/
+.vite/
+*.tsbuildinfo
+npm-debug.log*
+pnpm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Python / uv
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+*.pyd
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+.coverage.*
+htmlcov/
+.hypothesis/
+*.egg-info/
+build/
+
+# Rust / Tauri
+target/
+release/
+apps/desktop/src-tauri/binaries/
+
+# RoundLens private and generated data
+*.dem
+*.db
+*.db-*
+*.sqlite
+*.sqlite3
+*.parquet
+*.log
+reports/
+crashes/
+tests/fixtures/local/
+.packaging-smoke-data/
+.test-data-health/
+.tooling/
+
+# Secrets and local configuration
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# Editors and operating systems
+.idea/
+.vscode/
+*.code-workspace
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Temporary files
+*.tmp
+*.temp
+*.bak
+*.orig
+~$*
